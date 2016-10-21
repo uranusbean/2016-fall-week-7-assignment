@@ -1,0 +1,6 @@
+.axis .tick line{
+    stroke:white;
+}
+.axis .domain{
+    display:none;
+}
