@@ -1,6 +1,11 @@
-.axis .tick line{
-    stroke:white;
-}
+/*.axis .tick line{*/
+/*    stroke:white;*/
+/*}*/
 .axis .domain{
     display:none;
+}
+
+.axis-y .tick line {
+    stroke-width: 1px;
+	stroke: #eee;
 }
