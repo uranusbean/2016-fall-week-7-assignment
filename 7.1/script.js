@@ -51,7 +51,6 @@ d3.queue()
         d3.select('#year-2012').on('click', function(){
             draw(rows2012);
         });
-
     });
 
 //Step 3: implement the enter / exit / update pattern
@@ -101,7 +100,6 @@ function draw(rows){
         .merge(countriesEnter)
         .transition()
         .duration(1000)
-        
         .attr('transform',function(d,i){
             return 'translate('+scaleX(i)+',0)';
         });
